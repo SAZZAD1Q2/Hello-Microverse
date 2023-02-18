@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="moon-art-1641879.png" alt="logo" width="140"  height="auto" />
+  <img src="my_own_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
