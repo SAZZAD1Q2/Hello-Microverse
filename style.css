@@ -289,7 +289,7 @@ button:hover {
 
 .about-section {
   background-color: #1c1a19;
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 .about-me {
@@ -372,6 +372,7 @@ button:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  margin-top: 14px;
 }
 
 .skill-1::before {
@@ -410,7 +411,7 @@ button:hover {
   background-image: url(images/skill-lan.svg);
   background-repeat: no-repeat;
   position: absolute;
-  top: 10px;
+  top: 3px;
   left: 72px;
 }
 
@@ -420,7 +421,7 @@ button:hover {
   background-image: url(images/skill-fram56.svg);
   background-repeat: no-repeat;
   position: absolute;
-  top: 305px;
+  top: 312px;
   left: 60px;
 }
 
@@ -430,6 +431,6 @@ button:hover {
   background-image: url(images/skill-skill.svg);
   background-repeat: no-repeat;
   position: absolute;
-  top: 600px;
+  top: 620px;
   left: 115px;
 }
