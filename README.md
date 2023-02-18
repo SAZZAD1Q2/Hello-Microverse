@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 
+
 <div align="center">
   <img src="my_own_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
@@ -30,14 +31,16 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+
+# 📖 [The Portfolio] <a name="about-project"></a>
 
 
-**[Hello Microverse]** is a...
+**[The Portfolio]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 
 <details>
   <summary>Client</summary>
@@ -60,64 +63,82 @@
   </ul>
 </details>
 
-### Key Features <a name="Hello Microverse"></a>
+
+### Key Features <a name="key-features"></a>
+
+
+- **[Use Figma Template]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> A developer may view my project updates on Github sharing repository.
-
-To get a local copy up and running, follow these steps.
-
+git clone url
 ### Prerequisites
 
 In order to run this project you need:
 
-Browser Github vs code editor
+Browser
+git 
+code editor
 
 ### Setup
 
-Clone this repository to your desired folder: git clone (url of this repository)
+Clone this repository to your desired folder:
+
+git clone url
 
 
+### Usage
+
+To run the project, execute the following command:
+
+git clone
+cd The portfolio
+code .
+
+### Run tests
+
+To run tests, run the following command:
 
 
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+### Deployment
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/SAZZAD1Q2/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sazzad-hossain-054720257//linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/SazzadShaikh11/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sazzad-hossain-054720257/linkedinhandle)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Hello Microverse]**
+- [ ] **[Flexbox]**
+- [ ] **[CSSGrid]**
+- [ ] **[position]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -127,33 +148,44 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank... Microverse as got the chanch to use their template.
+
+Also thanks to my collaborator for helping me so much.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="LICENSE"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
