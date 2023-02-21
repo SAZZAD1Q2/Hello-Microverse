@@ -169,8 +169,7 @@ article {
   margin-bottom: 12px;
 }
 
-.work-links {
-  display: float;
+.work-links li{
   float: left;
   margin-bottom: 12px;
   margin-left: -4px;
