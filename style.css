@@ -170,7 +170,8 @@ article {
 }
 
 .work-links {
-  display: flex;
+  display: float;
+  float: left;
   margin-bottom: 12px;
   margin-left: -4px;
 }
