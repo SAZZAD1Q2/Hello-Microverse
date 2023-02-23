@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="my_own_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -64,17 +64,8 @@
 </details>
 
 
-### Key Features <a name="key-features"></a>
-
-
-- **[Use Figma Template]**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,8 +100,6 @@ code .
 
 To run tests, run the following command:
 
-
-### Deployment
 
 
 
