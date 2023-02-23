@@ -487,3 +487,112 @@ article {
   top: 620px;
   left: 115px;
 }
+
+/* == cantact part start == */
+
+.contact-form-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 375px;
+  text-align: center;
+}
+
+.contact-form-container p {
+  margin: 0 auto;
+  width: 327px;
+  height: 216px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  padding-top: 14px;
+  height: 24px;
+  margin-bottom: 39px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #979493;
+  border-style: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+#name,
+#email {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  margin-bottom: 24px;
+  margin-top: -12px;
+  padding-top: 36px;
+  padding: 12px;
+  background-color: #fbf8f7;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  border-style: none;
+}
+
+.contact-form-container button {
+  padding: 12px;
+  background: #ff6b00;
+  color: white;
+  width: 181px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-bottom: 124px;
+}
+
+.contact-form-container button:hover {
+  padding: 12px;
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  color: #f55800;
+  width: 181px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
