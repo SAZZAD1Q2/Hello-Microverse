@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="my_own_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -45,14 +45,14 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">html css</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">expressjs</a></li>
   </ul>
 </details>
 
@@ -62,19 +62,6 @@
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
-
-
-### Key Features <a name="key-features"></a>
-
-
-- **[Use Figma Template]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,12 +76,13 @@ In order to run this project you need:
 Browser
 git 
 code editor
+simple html, css, npm, and linter you need to know.
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-git clone url
+cd my-folder
+git clone https://github.com/SAZZAD1Q2/portfolio.git
 
 
 ### Usage
@@ -104,13 +92,12 @@ To run the project, execute the following command:
 git clone
 cd The portfolio
 code .
+npm install
 
 ### Run tests
 
 To run tests, run the following command:
 
-
-### Deployment
 
 
 
@@ -122,9 +109,9 @@ To run tests, run the following command:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/SAZZAD1Q2/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/SazzadShaikh11/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sazzad-hossain-054720257/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/SAZZAD1Q2)
+- Twitter: [@twitterhandle](https://twitter.com/SazzadShaikh11)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sazzad-hossain-054720257)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -164,21 +151,6 @@ Feel free to check the [issues page](../../issues/).
 I would like to thank... Microverse as got the chanch to use their template.
 
 Also thanks to my collaborator for helping me so much.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
