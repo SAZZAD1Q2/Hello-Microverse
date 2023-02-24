@@ -45,27 +45,18 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">CSS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,12 +71,13 @@ In order to run this project you need:
 Browser
 git 
 code editor
+simple html, css, npm, and linter you need to know.
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-git clone url
+cd my-folder
+git clone https://github.com/SAZZAD1Q2/portfolio.git
 
 
 ### Usage
@@ -95,6 +87,7 @@ To run the project, execute the following command:
 git clone
 cd The portfolio
 code .
+npm install
 
 ### Run tests
 
@@ -111,9 +104,9 @@ To run tests, run the following command:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/SAZZAD1Q2/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/SazzadShaikh11/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sazzad-hossain-054720257/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/SAZZAD1Q2)
+- Twitter: [@twitterhandle](https://twitter.com/SazzadShaikh11)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sazzad-hossain-054720257)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
