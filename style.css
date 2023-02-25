@@ -393,6 +393,7 @@ form button {
   align-items: center;
   color: var(--color-white);
   margin-top: 50px;
+  padding-bottom: 120px;
 }
 
 .skill-1,
@@ -1019,6 +1020,15 @@ media query for mobile from 450px to 767px screen
     width: 100%;
   }
 
+  .Languages,
+  .frameworks,
+  .skills {
+    align-items: flex-start;
+    padding-top: 120px;
+    padding-bottom: 160px;
+    padding-left: 20px;
+  }
+
   .work-links {
     display: flex;
     margin-bottom: 12px;
@@ -1445,12 +1455,6 @@ media query for mobile from 450px to 767px screen
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
-  }
-
-  .Languages,
-  .frameworks,
-  .skills {
-    align-items: flex-start;
   }
 
   .form-container {
