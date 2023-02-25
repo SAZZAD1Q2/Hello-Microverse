@@ -86,10 +86,15 @@ header {
 
   50%{
     color: #204fa1;
-    transform: rotate(180deg);
+    transform: rotate(170deg);
   }
 
-  50%{
+  75%{
+    color: #b0171e;
+    transform: rotate(270deg);
+  }
+
+  100%{
     color: #b0171e;
     transform: rotate(360deg);
   }
