@@ -75,7 +75,24 @@ header {
 }
 
 .branding-logo {
-  animation: rotate 8s ease-in-out 4s 1;
+  animation: rotate 8s  4s;
+}
+
+@keyframes rotate {
+  0%{
+    color: #8993a4;
+    transform: rotate(0);
+  }
+
+  50%{
+    color: #204fa1;
+    transform: rotate(180deg);
+  }
+
+  50%{
+    color: #b0171e;
+    transform: rotate(360deg);
+  }
 }
 
 .logo-container {
@@ -83,7 +100,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  animation: rotate 5s infinite ;
 }
+
+
 
 .mobile-menu {
   min-height: 755px;
