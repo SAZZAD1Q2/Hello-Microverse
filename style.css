@@ -52,7 +52,6 @@ img {
 .navbar-container,
 .headline-container,
 .works-container,
-.form-container,
 footer {
   margin-left: 24px;
   margin-right: 24px;
@@ -94,10 +93,10 @@ header {
   justify-content: space-around;
 }
 
-form ul {
+/* form ul {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .mobile-menu ul {
   width: 100%;
@@ -436,13 +435,6 @@ form button {
   line-height: 43px;
 }
 
-/* contact form and footer style */
-
-.form-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .form-container p {
   height: 216px;
   margin-top: 120px;
@@ -599,7 +591,7 @@ media query for mobile from 450px to 767px screen
 
   .work-links {
     margin: 0 auto;
-    padding-left: 60px;
+    padding-left: 14%;
     display: flex;
     margin-bottom: 12px;
   }
@@ -644,7 +636,7 @@ media query for mobile from 450px to 767px screen
     height: 48px;
     background: #fff5e1;
     margin-top: 12px;
-    margin-left: 60px;
+    margin-left: 6px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -819,6 +811,9 @@ media query for mobile from 450px to 767px screen
 } */
 
 @media screen and (min-width: 800px) {
+  .main {
+    height: 100vh;
+  }
   .work-article {
     margin-right: 240px;
   }
@@ -829,19 +824,66 @@ media query for mobile from 450px to 767px screen
     display: flex;
     margin-bottom: 12px;
   }
+}
 
-  /* .work-body img {
-    background: url(images/work-main.svg);
-    width: 684px;
-    height: 448px;
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-top: 60px;
+@media screen and (max-width: 860px) {
+  .form-container p {
+    width: 355px;
+    height: 216px;
+    margin-top: 160px;
+    margin-bottom: 58px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+    padding-left: 24px;
+    margin-bottom: 198px;
+  }
+
+  .form-text {
+    margin-top: 30px;
+  }
+
+  form input {
+    width: 87px;
+    height: 48px;
+    margin: 24px 0;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    color: #979493;
+    border-style: none;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  textarea {
+    min-width: 87px;
+    height: 114px;
     margin-bottom: 24px;
-  } */
+    padding: 12px;
+    background-color: #fbf8f7;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #a39e9c;
+    border-style: none;
+  }
 }
 
 @media screen and (min-width: 860px) {
+  .card-button {
+    display: none;
+  }
+
   .all-cards {
     margin: 0 auto;
     display: grid;
@@ -887,6 +929,11 @@ media query for mobile from 450px to 767px screen
 }
 
 @media screen and (min-width: 1220px) {
+  .main {
+    height: 100vh;
+    padding-top: 20px;
+  }
+
   .all-cards {
     margin: 0 auto;
     display: grid;
@@ -997,8 +1044,9 @@ media query for mobile from 450px to 767px screen
 
   .work-header img {
     margin-top: 100px;
-    width: 150%;
+    width: 100%;
     padding-left: 24px;
+    margin-left: 21.5%;
   }
 
   .work-body {
@@ -1009,15 +1057,95 @@ media query for mobile from 450px to 767px screen
   }
 
   .work-body img {
+    margin-right: 30px;
     width: 668px;
     height: 448px;
     background: url(images/recent-work-main-img.png);
+  }
+
+  .work-links {
+    margin-left: -53px;
+  }
+
+  .work-see-button {
+    margin-left: 10px;
+  }
+
+  .form-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .form-container p {
+    min-width: 455px;
+    height: 216px;
+    margin-top: 160px;
+    margin-bottom: 58px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .form-text {
+    margin-top: 30px;
+  }
+
+  form input {
+    min-width: 767px;
+    height: 48px;
+    margin: 24px 0;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    color: #979493;
+    border-style: none;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  textarea {
+    min-width: 767px;
+    height: 114px;
+    margin-bottom: 24px;
+    padding: 12px;
+    background-color: #fbf8f7;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #a39e9c;
+    border-style: none;
   }
 }
 
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
+  }
+
+  .work-card:hover h3 {
+    font-size: 0px;
+  }
+
+  .work-card:hover p {
+    font-size: 0px;
+  }
+
+  .work-card:hover ul li {
+    display: none;
+  }
+
+  .work-card:hover .card-button {
+    display: block;
+    margin-top: -45px;
   }
 
   .Languages,
@@ -1078,6 +1206,7 @@ media query for mobile from 450px to 767px screen
 
   .section {
     min-height: 500px;
+    height: 100vh;
     background-color: var(--color-black);
     background-image: url("./images/desktop-1.svg");
     background-repeat: no-repeat;
@@ -1092,23 +1221,51 @@ media query for mobile from 450px to 767px screen
   }
 
   .headline-text {
+    padding-top: 264px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     width: 85%;
     height: 100%;
     padding-right: 10%;
   }
 
   .headline-text h1 {
-    font-size: 50px;
-    line-height: 90%;
+    width: 566px;
+    height: 160px;
+    font-family: "Crete Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
   }
 
   .headline-text h2 {
-    font-size: 25px;
-    color: var(--color-white);
-    margin: 4% 0;
+    width: 566px;
+    height: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .headline-text article {
+    width: 566px;
+    height: 123px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
   }
 
   .social-media-icons {
@@ -1129,7 +1286,7 @@ media query for mobile from 450px to 767px screen
   }
 
   .work-header {
-    margin: 0 auto;
+    margin-left: 13vw;
     display: flex;
     justify-content: center;
   }
@@ -1146,6 +1303,55 @@ media query for mobile from 450px to 767px screen
     height: 1px;
     background-image: url(images/work-title-img.svg);
     margin-top: -53px;
+  }
+
+  .form-container p {
+    min-width: 455px;
+    height: 216px;
+    margin-top: 160px;
+    margin-bottom: 58px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .form-text {
+    margin-top: 30px;
+  }
+
+  form input {
+    width: 887px;
+    height: 48px;
+    margin: 24px 0;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    color: #979493;
+    border-style: none;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  textarea {
+    width: 887px;
+    height: 114px;
+    margin-bottom: 24px;
+    padding: 12px;
+    background-color: #fbf8f7;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #a39e9c;
+    border-style: none;
   }
 
   /* popup window style start */
@@ -1406,18 +1612,21 @@ media query for mobile from 450px to 767px screen
     background-color: rgba(255, 255, 255, 0.24);
   }
 
+  /* .form-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .form-container p {
     font-family: "Inter", sans-serif;
+    width: 455px;
+    height: 256px;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 30px;
-    align-items: center;
+    font-size: 40px;
+    line-height: 52px;
     color: #262626;
-    text-align: left;
-    margin-top: 25px;
-    word-wrap: break-word;
-  }
+  } */
 
   .about-me p {
     margin-right: 20%;
@@ -1565,7 +1774,7 @@ media query for mobile from 450px to 767px screen
   }
 
   .form-container p {
-    font-size: 22px;
+    font-size: 32px;
     line-height: 30px;
     color: #262626;
     text-align: left;
@@ -1613,20 +1822,6 @@ media query for mobile from 450px to 767px screen
   .frameworks,
   .skills {
     align-items: flex-start;
-  }
-
-  .form-container {
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    margin: 5% 10%;
-  }
-
-  #name,
-  #email,
-  #message {
-    width: 450px;
-    margin-left: 10%;
   }
 
   .footer {
