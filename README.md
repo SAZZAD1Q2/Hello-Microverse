@@ -1,14 +1,5 @@
 <a name="readme-top"></a>
 
-
-<div align="center">
-  <img src="" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -45,21 +36,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">html css</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">expressjs</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.postgresql.org/">html css</a></li>
   </ul>
 </details>
 
