@@ -23,22 +23,13 @@
 - [📝 License](#license)
 
 
-# 📖 [The Portfolio] <a name="about-project"></a>
+# 📖 The Portfolio <a name="about-project"></a>
 
 
-**[The Portfolio]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
+**The Portfolio** is my portfolio website that is made as a part of Microverse's task.
 
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">html css</a></li>
-  </ul>
-</details>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
