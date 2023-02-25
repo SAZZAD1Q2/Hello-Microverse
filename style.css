@@ -479,6 +479,10 @@ textarea {
   border-style: none;
 }
 
+/* .contact-button {
+  margin-left: 144px;
+} */
+
 footer {
   height: 81px;
   display: flex;
@@ -776,6 +780,7 @@ media query for mobile from 450px to 767px screen
 }
 
 .contact-button {
+  margin-left: 144px;
   padding: 12px;
   gap: 10px;
   width: 131px;
@@ -814,6 +819,7 @@ media query for mobile from 450px to 767px screen
   .main {
     height: 100vh;
   }
+
   .work-article {
     margin-right: 240px;
   }
@@ -831,7 +837,6 @@ media query for mobile from 450px to 767px screen
     width: 355px;
     height: 216px;
     margin-top: 160px;
-    margin-bottom: 58px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1029,6 +1034,7 @@ media query for mobile from 450px to 767px screen
   .work {
     display: grid;
     grid-template-rows: auto auto;
+    margin-left: 55px;
   }
 
   .work-header {
@@ -1131,23 +1137,6 @@ media query for mobile from 450px to 767px screen
     width: 100%;
   }
 
-  .work-card:hover h3 {
-    font-size: 0px;
-  }
-
-  .work-card:hover p {
-    font-size: 0px;
-  }
-
-  .work-card:hover ul li {
-    display: none;
-  }
-
-  .work-card:hover .card-button {
-    display: block;
-    margin-top: -45px;
-  }
-
   .Languages,
   .frameworks,
   .skills {
@@ -1234,7 +1223,7 @@ media query for mobile from 450px to 767px screen
   .headline-text h1 {
     width: 566px;
     height: 160px;
-    font-family: "Crete Round";
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -1245,7 +1234,7 @@ media query for mobile from 450px to 767px screen
   .headline-text h2 {
     width: 566px;
     height: 24px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -1260,7 +1249,7 @@ media query for mobile from 450px to 767px screen
   .headline-text article {
     width: 566px;
     height: 123px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1352,6 +1341,10 @@ media query for mobile from 450px to 767px screen
     line-height: 24px;
     color: #a39e9c;
     border-style: none;
+  }
+
+  .contact-button {
+    margin-left: 80px;
   }
 
   /* popup window style start */
@@ -1654,6 +1647,23 @@ media query for mobile from 450px to 767px screen
     height: 60%;
     margin-left: 10%;
     margin-top: 5%;
+  }
+
+  .work-card:hover h3 {
+    color: transparent;
+  }
+
+  .work-card:hover p {
+    color: transparent;
+  }
+
+  .work-card:hover ul li {
+    display: none;
+  }
+
+  .work-card:hover .card-button {
+    display: block;
+    margin-top: -45px;
   }
 
   .about-container hr {
