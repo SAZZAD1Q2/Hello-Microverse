@@ -1,14 +1,5 @@
 <a name="readme-top"></a>
 
-
-<div align="center">
-  <img src="" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -32,36 +23,13 @@
 - [📝 License](#license)
 
 
-# 📖 [The Portfolio] <a name="about-project"></a>
+# 📖 The Portfolio <a name="about-project"></a>
 
 
-**[The Portfolio]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
+**The Portfolio** is my portfolio website that is made as a part of Microverse's task.
 
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">html css</a></li>
-  </ul>
-</details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">expressjs</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
