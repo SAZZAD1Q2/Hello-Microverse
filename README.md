@@ -66,6 +66,11 @@ npm install
 
 To run tests, run the following command:
 
+### Deployment
+
+This is the online version of my app 
+https://sazzad1q2.github.io/New-Portfolio/
+
 
 
 
