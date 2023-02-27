@@ -100,7 +100,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* animation: rotate 5s infinite; */
+  animation: rotate 5s infinite;
 }
 
 .mobile-menu {
