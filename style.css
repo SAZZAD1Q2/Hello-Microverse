@@ -78,12 +78,6 @@ header {
   animation: rotate 8s 4s;
 }
 
-.my-name-logo {
-  color: white;
-  animation: rotate 8s infinite;
-
-}
-
 @keyframes rotate {
   0% {
     color: #fff;
@@ -106,7 +100,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* animation: rotate 5s infinite; */
+  animation: rotate 5s infinite;
 }
 
 .mobile-menu {
