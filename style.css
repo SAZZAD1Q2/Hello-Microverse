@@ -78,12 +78,6 @@ header {
   animation: rotate 8s 4s;
 }
 
-.my-name-logo {
-  color: white;
-  animation: rotate 8s infinite;
-
-}
-
 @keyframes rotate {
   0% {
     color: #fff;
