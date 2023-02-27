@@ -81,7 +81,6 @@ header {
 .my-name-logo {
   color: white;
   animation: rotate 8s infinite;
-
 }
 
 @keyframes rotate {
@@ -106,6 +105,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   /* animation: rotate 5s infinite; */
 }
 
