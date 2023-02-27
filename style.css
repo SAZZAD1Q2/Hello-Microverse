@@ -8,6 +8,12 @@
   list-style: none;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   min-width: 375px;
   margin: 0 auto;
