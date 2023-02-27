@@ -75,26 +75,27 @@ header {
 }
 
 .branding-logo {
-  animation: rotate 8s  4s;
+  animation: rotate 8s 4s;
+}
+
+.my-name-logo {
+  color: white;
+  animation: rotate 8s infinite;
+
 }
 
 @keyframes rotate {
-  0%{
-    color: #8993a4;
+  0% {
+    color: #fff;
     transform: rotate(0);
   }
 
-  50%{
+  50% {
     color: #204fa1;
-    transform: rotate(170deg);
+    transform: rotate(180deg);
   }
 
-  75%{
-    color: #b0171e;
-    transform: rotate(270deg);
-  }
-
-  100%{
+  50% {
     color: #b0171e;
     transform: rotate(360deg);
   }
@@ -105,10 +106,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  animation: rotate 5s infinite ;
+  /* animation: rotate 5s infinite; */
 }
-
-
 
 .mobile-menu {
   min-height: 755px;
