@@ -80,11 +80,19 @@ header {
   background-color: #3c3a39;
 }
 
-.branding-logo {
-  animation: rotate 8s 4s;
+.branding-log {
+  width: 140px;
+  height: 45px;
+  animation: rotate 9s infinite;
 }
 
 @keyframes rotate {
+  /* from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
   0% {
     color: #fff;
     transform: rotate(0);
@@ -106,7 +114,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  animation: rotate 5s infinite;
+  /* animation: rotate 5s infinite; */
 }
 
 .mobile-menu {
