@@ -73,6 +73,15 @@ footer {
 
 /* ------------navbar  style ------------ */
 
+.show {
+  display: block;
+  position: fixed;
+}
+
+.hide {
+  display: block;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -87,12 +96,6 @@ header {
 }
 
 @keyframes rotate {
-  /* from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(360deg);
-  } */
   0% {
     color: #fff;
     transform: rotate(0);
@@ -124,11 +127,6 @@ header {
   flex-direction: row-reverse;
   justify-content: space-around;
 }
-
-/* form ul {
-  display: flex;
-  flex-direction: column;
-} */
 
 .mobile-menu ul {
   width: 100%;
