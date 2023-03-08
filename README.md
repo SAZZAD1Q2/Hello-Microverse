@@ -64,7 +64,7 @@ npm install
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following commands:
 
 ### Deployment
 
