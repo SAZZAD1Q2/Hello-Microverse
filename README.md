@@ -80,11 +80,15 @@ https://sazzad1q2.github.io/New-Portfolio/
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Sazzad Hossain**
 
 - GitHub: [@githubhandle](https://github.com/SAZZAD1Q2)
 - Twitter: [@twitterhandle](https://twitter.com/SazzadShaikh11)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sazzad-hossain-054720257)
+
+👤 **Seyi Oyemade**
+
+- GitHub: [@githubhandle](https://github.com/seyioyemade)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -92,10 +96,9 @@ https://sazzad1q2.github.io/New-Portfolio/
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [ ] **[Flexbox]**
-- [ ] **[CSSGrid]**
-- [ ] **[position]**
+- Details modal
+- Validate contact form
+- Preserve data in the browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
