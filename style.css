@@ -73,6 +73,15 @@ footer {
 
 /* ------------navbar  style ------------ */
 
+.show {
+  display: block;
+  position: fixed;
+}
+
+.hide {
+  display: block;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -80,8 +89,10 @@ header {
   background-color: #3c3a39;
 }
 
-.branding-logo {
-  animation: rotate 8s 4s;
+.branding-log {
+  width: 140px;
+  height: 45px;
+  animation: rotate 9s infinite;
 }
 
 @keyframes rotate {
@@ -106,7 +117,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  animation: rotate 5s infinite;
+
+  /* animation: rotate 5s infinite; */
 }
 
 .mobile-menu {
@@ -116,11 +128,6 @@ header {
   flex-direction: row-reverse;
   justify-content: space-around;
 }
-
-/* form ul {
-  display: flex;
-  flex-direction: column;
-} */
 
 .mobile-menu ul {
   width: 100%;
