@@ -592,7 +592,6 @@ media query for mobile from 450px to 767px screen
     margin-top: 90px;
     width: 330px;
     height: 237px;
-    background: url(images/work-main.svg);
   }
 
   .work-article {
@@ -636,6 +635,7 @@ media query for mobile from 450px to 767px screen
   }
 
   .work-links li a {
+    margin-right: 12px;
     width: 32px;
     height: 20px;
     font-family: "Inter", sans-serif;
@@ -671,7 +671,6 @@ media query for mobile from 450px to 767px screen
     height: 48px;
     background: #fff5e1;
     margin-top: 12px;
-    margin-left: 6px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -680,6 +679,7 @@ media query for mobile from 450px to 767px screen
     letter-spacing: 0.03em;
     color: #f55800;
     border: 1px solid #f55800;
+    /* margin-left: 60px; */
     margin-bottom: 24px;
   }
 
@@ -1911,4 +1911,85 @@ media query for mobile from 450px to 767px screen
   .technologiesPreview {
     margin-left: 0;
   }
+}
+
+/* work pop section */
+
+.workHeader {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 86vw;
+}
+
+.workContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.col-one {
+  width: 37vw;
+  height: 80vh;
+}
+
+.col-one ul li{
+
+}
+
+.col-one ul li a{
+padding: 7px;
+margin-right: 7px;
+border: 1px solid #000;
+}
+
+.workContainer h2 {
+  margin-left: 5px;
+  width: 1056px;
+  height: 40px;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.workContainer img {
+  margin-top: 40px;
+}
+
+.work-p-links {
+  margin-top: 24px;
+}
+
+.col-two p {
+  width: 424px;
+  height: 336px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+}
+
+.col-two button {
+  padding: 12px;
+  gap: 12px;
+  width: 159px;
+  height: 48px;
+  left: 849px;
+  background: #f55800;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 7px;
+}
+
+.popclose {
+  position: absolute;
+  top: -37px;
+  right: 37px;
+  cursor: pointer;
+  padding: 5px;
 }
