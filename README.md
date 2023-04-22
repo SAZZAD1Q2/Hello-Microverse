@@ -1,5 +1,17 @@
 <a name="readme-top"></a>
 
+<div align="center">
+ <h3><b>New Portfolio</b>
+ </h5>
+</div>
+
+<div align="center">
+<h3><b>Project's screenshost</b></h3>
+<img src="images/Portfolio_Scr_shot_1.png" alt="screenshoot" width="125"/>
+<img src="images/Portfolio_Scr_shot_2.png" alt="screenshoot" width="125"/>
+<img src="images/Portfolio_Scr_shot_3.png" alt="screenshoot" width="125"/>
+</div>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
