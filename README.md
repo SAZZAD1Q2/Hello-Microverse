@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-<h3><b>Project's screenshots</b></h3>
+<h3><b>Project's Mobile View</b></h3>
 <img src="images/Portfolio_Scr_shot_1.png" alt="screenshoot" width="125"/>
 <img src="images/Portfolio_Scr_shot_2.png" alt="screenshoot" width="125"/>
 <img src="images/Portfolio_Scr_shot_3.png" alt="screenshoot" width="125"/>
